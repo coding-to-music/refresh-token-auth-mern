@@ -1,11 +1,18 @@
 {
-  "name": "refreshTokenAuth",
+  "name": "refresh-token-auth-mern",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
+  "cacheDirectories": [
+    "node_modules"
+  ],
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "deploy": "git add . && git commit -m Heroku && git push && git push heroku && heroku logs --tail --remote heroku"
   },
   "keywords": [],
   "author": "",
