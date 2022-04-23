@@ -12,9 +12,18 @@ dbConnect();
 
 app.use(express.json());
 
+// app.set("views", __dirname + "/views");
+
+// app.set("views", "/views");
+app.get('/', function(req, res){
+    res.send("Hello world!");
+ });
+
 app.use("/api", authRoutes);
 app.use("/api/refreshToken", refreshTokenRoutes);
 app.use("/api/users", userRoutes);
 
-const port = process.env.PORT || 8080;
-app.listen(port, () => console.log(`Listening on port ${port}...`));
+const port = process.env.PORT || 3000;
+app.listen(port, () =>
+  console.log(`Listening on port ${port}... or http://localhost:${port}`)
+);
