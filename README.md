@@ -10,11 +10,13 @@ https://refresh-token-auth-mern.herokuapp.com
 
 https://refresh-token-auth-mern.onrender.com
 
-by SoftMaple https://github.com/softmaple
+by cyber-wolve https://github.com/cyber-wolve
 
-https://insights.softmaple.xyz/dashboard
+https://www.youtube.com/watch?v=KqcEVUI7-s0&ab_channel=CyberWolve
 
-https://github.com/softmaple/dashboard
+Dev.to article = https://dev.to/cyberwolve/jwt-authentication-with-access-tokens-refresh-tokens-in-node-js-5aa9
+
+Source Code = https://github.com/cyber-wolve/refreshToken_auth_and_roleBased_autherization
 
 ```java
 const secret = process.env.JWT_SECRET;
@@ -83,9 +85,9 @@ So let's start coding...
 
 I highly recommend you to watch demo video for better understanding. If you like my work Subscribe to my channel to support.
 
-Demo Video
+Demo Video = https://www.youtube.com/watch?v=KqcEVUI7-s0&ab_channel=CyberWolve
 
-Project Github Link
+Project Github Link = Source Code = https://github.com/cyber-wolve/refreshToken_auth_and_roleBased_autherization
 
 Following table shows the overview of Rest APIs that exported
 
